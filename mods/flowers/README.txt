@@ -23,6 +23,17 @@ License of media (textures, sounds, meshes):
 --------------------------------------------
 (by Authors)
 
+JBB
+	flowers_mushroom_tree_top.png based on texture by Hybrid Dog (WTFPL)
+	flowers_mushroom_head_red.png (edit) texture by Hybrid Dog (WTFPL)
+
+Hybrid Dog (WTFPL)
+	flowers_mushroom_head_brown.png
+	flowers_mushroom_head_inner.png
+	flowers_mushroom_tree_brown.png
+	flowers_mushroom_tree_red.png
+
+
 RHRhino (WTFPL):
    flowers_*.png
 
