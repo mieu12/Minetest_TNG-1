@@ -34,7 +34,7 @@ Hybrid Dog (WTFPL)
     flowers_mushroom_tree_red.png
 
 RHRhino (WTFPL):
-   flowers_dendelion_white.png,
+   flowers_dandelion_white.png,
    flowers_dandelion_yellow.png,
    flowers_geranium.png,
    flowers_rose.png,
