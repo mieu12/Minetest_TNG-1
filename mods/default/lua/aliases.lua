@@ -1,4 +1,6 @@
 -- mods/default/lua/aliases.lua
+-- ============================
+-- See README.txt (in this mod) for licensing and other information.
 
 -- Aliases to support loading worlds using nodes following the old naming convention
 -- These can also be helpful when using chat commands, for example /giveme
@@ -123,3 +125,27 @@ core.register_alias("dye:cyan", "default:dye_cyan")
 core.register_alias("dye:blue", "default:dye_blue")
 core.register_alias("dye:violet", "default:dye_violet")
 core.register_alias("dye:magenta", "default:dye_magenta")
+
+-- Aliases for old flowers mod
+core.register_alias("flowers:flower_rose", "default:flower_rose")
+core.register_alias("flowers:flower_tulip", "default:flower_tulip")
+core.register_alias("flowers:flower_dandelion_yellow", "default:flower_dandelion_yellow")
+core.register_alias("flowers:flower_geranium", "default:flower_geranium")
+core.register_alias("flowers:flower_viola", "default:flower_viola")
+core.register_alias("flowers:flower_dandelion_white", "default:flower_dandelion_white")
+
+core.register_alias("flowers:rose", "default:flower_rose")
+core.register_alias("flowers:tulip", "default:flower_tulip")
+core.register_alias("flowers:dandelion_yellow", "default:flower_dandelion_yellow")
+core.register_alias("flowers:geranium", "default:flower_geranium")
+core.register_alias("flowers:viola", "default:flower_viola")
+core.register_alias("flowers:dandelion_white", "default:flower_dandelion_white")
+
+core.register_alias("flowers:mushroom_brown", "default:mushroom_brown")
+core.register_alias("flowers:mushroom_red", "default:mushroom_red")
+
+core.register_alias("flowers:waterlily", "default:waterlily")
+
+-- MTG compatibility
+core.register_alias("flowers:mushroom_fertile_brown", "default:mushroom_brown")
+core.register_alias("flowers:mushroom_fertile_red", "default:mushroom_red")
