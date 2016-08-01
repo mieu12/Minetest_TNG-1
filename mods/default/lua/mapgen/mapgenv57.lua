@@ -440,7 +440,7 @@ core.register_biome({
 	--node_river_water = "",
 	y_min = 1,
 	y_max = 31000,
-	heat_point = 95,
+	heat_point = 90,
 	humidity_point = 50,
 })
 
@@ -458,7 +458,7 @@ core.register_biome({
 	--node_river_water = "",
 	y_min = -3,
 	y_max = 0,
-	heat_point = 95,
+	heat_point = 90,
 	humidity_point = 50,
 })
 
@@ -476,7 +476,7 @@ core.register_biome({
 	--node_river_water = "",
 	y_min = -112,
 	y_max = -4,
-	heat_point = 95,
+	heat_point = 90,
 	humidity_point = 50,
 })
 
@@ -494,7 +494,7 @@ core.register_biome({
 	--node_river_water = "",
 	y_min = 1,
 	y_max = 31000,
-	heat_point = 95,
+	heat_point = 80,
 	humidity_point = 90,
 })
 
@@ -512,7 +512,7 @@ core.register_biome({
 	--node_river_water = "",
 	y_min = -3,
 	y_max = 0,
-	heat_point = 95,
+	heat_point = 80,
 	humidity_point = 90,
 })
 
@@ -530,7 +530,7 @@ core.register_biome({
 	--node_river_water = "",
 	y_min = -112,
 	y_max = -4,
-	heat_point = 95,
+	heat_point = 80,
 	humidity_point = 90,
 })
 

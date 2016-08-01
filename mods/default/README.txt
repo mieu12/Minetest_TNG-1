@@ -25,7 +25,7 @@ License of media (textures, sounds, meshes):
 --------------------------------------------
 (by Authors)
 
-Fridolin (CC BY-SA 4.0):
+fridolin (CC BY-SA 3.0):
   default_mineral_salt.png
   default_salt.png
   default_salt_block.png
@@ -33,7 +33,7 @@ Fridolin (CC BY-SA 4.0):
   default_papyrus_block_top.png
   gui_furnace_arrow_fg.png
 
-JBB (CC BY-SA 4.0):
+JBB (CC BY-SA 3.0):
   default_itemframe.png
   default_bonemeal.png
   default_cherry_blossoms.png
@@ -49,10 +49,9 @@ JBB (CC BY-SA 4.0):
   default_red_maple_sapling.png
   flowers_mushroom_tree_top.png based on texture by Hybrid Dog (WTFPL)
   flowers_mushroom_head_red.png based on texture by Hybrid Dog (WTFPL)
-JBB (CC BY-SA 3.0):
   default_jungleleaves.png, based on texture of BlockMen (CC BY-SA 3.0)
 
-LNJ (CC BY-SA 4.0):
+LNJ (CC BY-SA 3.0):
   default_bone.png
   default_pear.png
   default_vine.png
@@ -66,7 +65,6 @@ kilbith (WTFPL):
 
 Cisoun (WTFPL):
   default_lava.png
-  default_sapling.png
   default_stone.png
   default_tree.png
   default_tree_top.png
@@ -94,7 +92,7 @@ RealBadAngel (WTFPL):
   default_water_source_animated.png
   default_water_flowing_animated.png
 
-Calinou (CC BY-SA):
+Calinou (CC BY-SA 3.0):
   default_brick.png
   default_papyrus.png
   default_mineral_copper.png
@@ -192,6 +190,7 @@ BlockMen (CC BY-SA 3.0):
   default_pine_wood.png
   default_pine_sapling.png
   default_sand.png
+  default_sapling.png
   default_snow.png, based on texture of Splizard (CC BY-SA 3.0)
   default_snow_side.png
   default_snowball.png
@@ -318,3 +317,31 @@ RHRhino (WTFPL):
    flowers_rose.png
    flowers_tulip.png
    flowers_viola.png
+
+
+Details of Licenses:
+--------------------
+
+CC BY 3.0:
+  Attribution 3.0 Unported
+  http://creativecommons.org/licenses/by/3.0/
+
+CC BY-SA 2.0:
+  Attribution-ShareAlike 2.0 Generic
+  http://creativecommons.org/licenses/by-sa/2.0/
+
+CC BY-SA 3.0:
+  Attribution-ShareAlike 3.0 Unported
+  http://creativecommons.org/licenses/by-sa/3.0/
+
+CC BY-SA 4.0:
+  Attribution-ShareAlike 4.0 International
+  http://creativecommons.org/licenses/by-sa/4.0/
+
+CC 0:
+  CC0 1.0 Universal
+  http://creativecommons.org/publicdomain/zero/1.0/
+
+WTFPL:
+  Do What the Fuck You Want to Public License
+  http://www.wtfpl.net/txt/copying/

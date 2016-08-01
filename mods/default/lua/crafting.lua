@@ -1,4 +1,6 @@
 -- mods/default/lua/crafting.lua
+-- =============================
+-- See README.txt for licensing and other information.
 
 core.register_craft({
 	output = "default:stick 4",
@@ -634,7 +636,7 @@ core.register_craft({
 })
 
 core.register_craft({
-	output = "default:bonemeal 4",
+	output = "default:bonemeal 2",
 	recipe = {
 		{"default:bone"}
 	}
@@ -688,7 +690,7 @@ core.register_craft({
 	}
 })
 
-core.register_craft({ 
+core.register_craft({
 	output = "default:craft_guide",
 	type = "shapeless",
 	recipe = {"default:book"}
