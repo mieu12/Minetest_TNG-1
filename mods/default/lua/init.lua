@@ -1,9 +1,6 @@
--- This file is part of Minetest TNG
--- =================================
 -- mods/default/lua/init.lua
---
+-- =========================
 -- See README.txt for licensing and other information.
---
 
 -- Filepaths
 local modpath = core.get_modpath("default")
@@ -48,6 +45,7 @@ end
 dofile(apipath .. "carpets.lua")
 dofile(apipath .. "fences.lua")
 dofile(apipath .. "fencegates.lua")
+dofile(apipath .. "fruit_grow.lua")
 dofile(apipath .. "player.lua")
 dofile(apipath .. "screwdriver.lua")
 dofile(apipath .. "signs.lua")
