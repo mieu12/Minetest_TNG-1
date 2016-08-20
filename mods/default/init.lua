@@ -67,6 +67,8 @@ end
 dofile(envpath .. "grow_cactus.lua")
 dofile(envpath .. "grow_grass.lua")
 dofile(envpath .. "grow_papyrus.lua")
+dofile(envpath .. "grow_bamboo.lua")
+
 
 -- Items
 dofile(envpath .. "item_physics.lua")
@@ -127,6 +129,7 @@ dofile(nodepath .. "wool.lua") -- also registers carpets
 -- Plants
 dofile(nodepath .. "grass.lua")
 dofile(nodepath .. "papyrus.lua")
+dofile(nodepath .. "bamboo.lua")
 
 dofile(nodepath .. "cactus.lua")
 dofile(nodepath .. "vines.lua")
