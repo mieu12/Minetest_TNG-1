@@ -26,7 +26,7 @@ default.register_node("default:bamboo", {
 		type = "fixed",
 		fixed = {-0.3, -0.5, -0.3, 0.3, 0.5, 0.3}
 	},
-	groups = {snappy = 3, flammable = 2, stick = 1, tree = 1},
+	groups = {choppy = 2, oddly_breakable_by_hand = 1, flammable = 2, stick = 1, tree = 1},
 	sounds = default.node_sound_wood_defaults(),
 -- 
 	after_dig_node = function(pos, node, metadata, digger)
