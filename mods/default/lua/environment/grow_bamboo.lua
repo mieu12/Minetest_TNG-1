@@ -16,17 +16,17 @@ function default.grow_bamboo(pos, node)
 		pos.y = pos.y + 1
 		node = core.get_node(pos)
 	end
-	if height == 15 or node.name ~= "air" then
-		return
+	if height > 10 or node.name ~= "air" then
+		core.set_node(pos, {name = "default:bamboo"})
+		core.set_node({x = pos.x + 1, y = pos.y, z = pos.z}, {name = "default:bamboo_leaves"})
+		core.set_node({x = pos.x, y = pos.y, z = pos.z + 1}, {name = "default:bamboo_leaves"})
+		core.set_node({x = pos.x - 1, y = pos.y, z = pos.z}, {name = "default:bamboo_leaves"})
+		core.set_node({x = pos.x, y = pos.y, z = pos.z - 1}, {name = "default:bamboo_leaves"})
 	end
-    --[[if height == 15 then
-        local path = minetest.get_modpath("default") ..
-            "/schematics/bamboo_leaves.mts"
-        minetest.place_schematic({x = pos.x - 2, y = pos.y - 1, z = pos.z - 2},
-            path, "0", nil, false)
-        end
-    end]]--
-	core.set_node(pos, {name = "default:bamboo"})
+	if height == 15 or node.name ~= "air" then
+		core.set_node({x = pos.x, y = pos.y + 1, z = pos.z}, {name = "default:bamboo_leaves"})
+	end
+        core.set_node(pos, {name = "default:bamboo"})
 	return true
 end
 
