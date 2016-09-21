@@ -69,7 +69,6 @@ dofile(envpath .. "grow_grass.lua")
 dofile(envpath .. "grow_papyrus.lua")
 dofile(envpath .. "grow_bamboo.lua")
 
-
 -- Items
 dofile(envpath .. "item_physics.lua")
 dofile(envpath .. "item_pickup.lua")

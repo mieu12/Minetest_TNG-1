@@ -1,5 +1,5 @@
 -- mods/default/lua/nodes/bamboo.lua
--- =============================================
+-- =================================
 -- See README.txt for licensing and other information.
 
 default.register_node("default:bamboo", {
@@ -28,7 +28,6 @@ default.register_node("default:bamboo", {
 	},
 	groups = {choppy = 2, oddly_breakable_by_hand = 1, flammable = 2, stick = 1, tree = 1},
 	sounds = default.node_sound_wood_defaults(),
--- 
 	after_dig_node = function(pos, node, metadata, digger)
 		default.dig_up(pos, node, digger)
 	end,
@@ -39,9 +38,7 @@ default.register_node("default:bamboo_leaves", {
 	tiles = {"default_bamboo_leaves.png"},
 	paramtype = "light",
 	drawtype = "plantlike",
-	paramtype = "light",
 	paramtype2 = "facedir",
-	visual_scale = "1.2",
+	visual_scale = 1.2,
 	groups = {snappy = 3, leafdecay = 3, flammable = 2, leaves = 1, fuel = 2}	
 })
-

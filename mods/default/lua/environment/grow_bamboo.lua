@@ -1,5 +1,5 @@
 -- mods/default/lua/environment/grow_bamboo.lua
--- =============================================
+-- ============================================
 -- See README.txt for licensing and other information.
 
 -- Bamboo
@@ -35,7 +35,5 @@ core.register_abm({
 	neighbors = {"default:dirt", "default:dirt_with_grass", "default:sand"},
 	interval = 30, -- 50
 	chance = 8,  -- 20
-	action = function(...)
-		default.grow_bamboo(...)
-	end
+	action = default.grow_bamboo
 })
