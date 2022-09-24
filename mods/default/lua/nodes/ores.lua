@@ -53,6 +53,14 @@ for _,stone in pairs(stones) do
 		drop = "default:diamond",
 		sounds = default.node_sound_stone_defaults(),
 	})
+	
+	default.register_node("default:" .. stone .. "_with_MITHRIL", {
+		description = "Mithril Ore",
+		tiles = {"default_" .. stone .. ".png^default_mineral_mithril.png"},
+		groups = {cracky = 1, not_in_creative_inventory = 0},
+		drop = "default:mithril_ore",
+		sounds = default.node_sound_stone_defaults(),
+	})
 
 	default.register_node("default:" .. stone .. "_with_gold", {
 		description = "Gold Ore",
@@ -132,6 +140,17 @@ default.register_node("default:bronzeblock", {
 	sounds = default.node_sound_stone_defaults(),
 	stair = {legacy_alias = "stairs:stair_bronzeblock"},
 	slab = {legacy_alias = "stairs:slab_bronzeblock"},
+})
+
+default.register_node("default:mithrilblock", {
+	register = {stair = true, slab = true},
+	description = "Mitrhil Block",
+	tiles = {"default_mithril_block.png"},
+	is_ground_content = false,
+	groups = {cracky = 1, level = 3},
+	sounds = default.node_sound_stone_defaults(),
+	stair = {legacy_alias = "stairs:stair_mithrilblock"},
+	slab = {legacy_alias = "stairs:slab_mithrilblock"},
 })
 
 default.register_node("default:goldblock", {
