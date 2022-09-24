@@ -244,10 +244,10 @@ core.register_craft({
 })
 
 core.register_craft({
-	output = "default:diamondblock",
+	output = "default:mithrilblock",
 	recipe = {
-		{"default:diamond", "default:diamond", "default:diamond"},
-		{"default:diamond", "default:diamond", "default:diamond"},
-		{"default:diamond", "default:diamond", "default:diamond"},
+		{"default:mithrilmithril_ingot", "default:mithril_ingot", "default:mithril_ingot"},
+		{"default:mithril_ingot", "default:mithril_ingot", "default:mithril_ingot"},
+		{"default:mithril_ingot", "default:mithril_ingot", "default:mithril_ingot"},
 	}
 })
